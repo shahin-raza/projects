@@ -8,7 +8,7 @@ BNPP has aquired a car leasing bussiness called ARVAL. In which they have a acco
 
 # Apollo Project (Drupal 10)
 **Apollo | PHP, Drupal 10 **  
-🔗 *https://www.arval.com*
+🔗 *<a href="https://www.arval.com" target="_blank">https://www.arval.com</a>*
 📅 *Oct 2022 – Present*
 
 Apollo is a CMS application developed in Drupal 10 & React. The site has been developed as multisite and multilingual for different countries.
