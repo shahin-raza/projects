@@ -30,7 +30,7 @@ These documents are designed to support:
 - 120+ websites, single codebase  
 - Component-based architecture  
 - API-driven leasing workflows  
-👉 **Read Case Study:** `Arval/arval-case-study.md`
+👉 **[Read Case Study](Arval/arval-case-study.md)**
 
 ---
 
@@ -39,7 +39,7 @@ These documents are designed to support:
 - Full migration pipeline  
 - Multilingual setup  
 - XML integrations & CiviCRM  
-👉 **Read Case Study:** `IUCN/iucn-case-study.md`
+👉 **[Read Case Study](IUCN/iucn-case-study.md)**
 
 ---
 
@@ -48,7 +48,7 @@ These documents are designed to support:
 - MSPs, clients & 15,000+ users  
 - Dark web monitoring, training modules  
 - Phishing simulation integration (GoPhish)  
-👉 **Read Case Study:** `CyberGuard360/cg360-case-study.md`
+👉 **[Read Case Study](CyberGuard360/cg360-case-study.md)**
 
 ---
 
