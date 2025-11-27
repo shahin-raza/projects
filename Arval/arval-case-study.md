@@ -1,91 +1,123 @@
-# ARVAL – BNPP Bank
+# Arval – BNP Paribas  
+### Apollo Platform (Drupal 10 Multisite Architecture)
 
-# About BNPP
-BNP Paribas (BNPP) is a French multinational universal bank and financial services holding company headquartered in Paris, France.  
-BNPP acquired a vehicle leasing business called **ARVAL**, which operates the **Apollo** digital platform under the DCX (Digital & Customer Experience) division.
+## 🌍 About BNPP & ARVAL
+BNP Paribas (BNPP) is a leading global financial services institution headquartered in Paris, France.  
+BNPP owns **ARVAL**, a multinational vehicle leasing and fleet management company operating across Europe and worldwide.
 
----
-
-# Arval (Apollo) – Drupal Case Study  
-**Fleet Management Platform – Multi-site Drupal Implementation**
-
-## 📌 Project Overview
-Arval, a global vehicle leasing and fleet management company, required a scalable digital platform to support partners, clients, and operational teams across multiple European markets.  
-The objective was to build a centralized Drupal-based system capable of handling country-specific workflows, dashboards, reporting, and integrations while maintaining high performance and security standards.
-
-The Apollo platform runs **120+ multisite and multilingual websites** on a single codebase, enabling fast and flexible component-based content delivery across regions.
-
-This project focused on building reusable business components, enhancing platform performance, and ensuring seamless multi-country rollout.
+ARVAL's Digital & Customer Experience (DCX) division manages the **Apollo** platform — a unified web solution powering ARVAL’s public-facing websites, leasing offer catalogs, and customer engagement experiences across multiple countries.
 
 ---
 
-## 👤 My Role
-**Senior Drupal Developer / Technical Lead**  
-**Duration:** Oct 2021 – Present**  
-**Team:** 5 Developers, 1 QA, Product Owner, Scrum Master, Business Analyst
+# Apollo Project (Drupal 10 – Multisite, Multilingual Platform)  
+**Apollo | PHP, Drupal 10, Multisite**  
+🔗 https://www.arval.com  
+📅 **Oct 2021 – Present**  
+🎯 **Role:** Senior Drupal Developer / Technical Lead  
 
-Responsibilities included backend architecture, custom module development, API integration, platform optimization, and leading development activities across sprints.
+Apollo is an enterprise-level web platform built using **Drupal 10** and **React**, designed to support ARVAL’s multi-country leasing business.  
+It serves as a **centralized multisite, multilingual CMS**, enabling:
+
+- **120+ country-specific websites**
+- **Single codebase**
+- **Single database**
+- **Shared component library**
+- **Localized leasing offers (LTR/MTR/PL)**
+
+The platform powers ARVAL’s leasing services with dynamic content, personalized offers, and reusable digital components.
 
 ---
 
-## 🛠 Tech Stack
-- Drupal 9 / Drupal 10  
+## 🚀 Project Overview
+Apollo required a scalable architecture capable of supporting multiple European markets with shared functionality but localized configurations.
+
+The objectives included:
+
+- Migrating markets to a unified Drupal 10 ecosystem  
+- Building a reusable component-based content model  
+- Handling regional/business variations  
+- Integrating APIs for car leasing offers and pricing  
+- Supporting multilingual content and editorial workflows  
+- Optimizing platform performance for high traffic  
+
+---
+
+## 👤 My Responsibilities & Achievements
+
+### 🔹 1. Multisite & Multilingual Architecture
+- Implemented multisite architecture serving **120+ websites** using a unified codebase.  
+- Enabled country-level configurations for content types, workflows, and business features.  
+- Managed multilingual structures with translation workflows for pages, components, and offers.
+
+### 🔹 2. Component-based Content System
+- Designed reusable, configurable components using Paragraphs & custom modules.  
+- Built flexible page layouts for marketing teams to create landing pages without code.  
+- Standardized content patterns across all markets for brand consistency.
+
+### 🔹 3. API Integrations for Leasing Offers
+- Integrated REST APIs to fetch real-time car leasing offers (LTR, MTR, PL).  
+- Implemented business rules for offer filtering, eligibility, and dynamic pricing.  
+- Built cron jobs & queue workers for periodic data sync and caching.
+
+### 🔹 4. Backend Architecture & Custom Feature Development
+- Developed custom modules for:
+  - Leasing workflows  
+  - Offer management  
+  - Vehicle listing pages 
+- Created Controllers, Services, and Plugin-based systems following Drupal best practices.
+
+### 🔹 5. Performance Optimization
+- Improved performance using:
+  - Redis caching  
+  - BigPipe  
+  - Twig caching  
+  - Entity & Render cache  
+- Reduced average page load times significantly across high-traffic regions.  
+- Optimized complex SQL queries using indexing and caching layers.
+
+### 🔹 6. CI/CD & Deployment Pipelines
+- Managed deployments using Docker & GitLab CI/CD.  
+- Built Composer-based build pipelines for consistent environment setup.  
+- Supported QA and release teams during sprint cycles.
+
+### 🔹 7. Security, Permissions & Access Control
+- Standardized permission structures across markets.  
+- Ensured compliance with BNPP security guidelines for enterprise systems.
+- Upgrade from PHP-7.X to PHP-8.X
+- Upgrade Drupal 9 to Drupal 10
+- Implemented accessibility
+
+---
+
+## 🛠 Technology Stack
+- Drupal 10 / Drupal 9  
 - PHP 8.x  
-- Custom Modules, Hooks, Plugins  
-- MySQL, Views, Paragraphs, Webforms  
-- REST API Integrations  
-- Docker, CI/CD, Composer  
+- Symfony Components  
+- React  
+- REST APIs  
+- PostgreSQL / MySQL  
+- Redis  
+- Twig  
+- ElasticSearch  
+- NGINX  
+
+---
+
+## 🧰 Tools & Infrastructure
+- AWS  
+- Docker  
+- Kubernetes  
 - GitLab  
-- Redis, BigPipe, Drupal Cache API  
-
----
-
-## 🚀 Key Responsibilities
-
-### 1. Backend Architecture & Custom Modules
-- Designed and developed custom Drupal modules to support complex business logic.  
-- Implemented entity-based configurations allowing each market to customize workflows independently.  
-- Built custom Controllers, Forms, Services, and Plugin-based systems following Drupal best practices.
-
-### 2. Multi-Country Enablement
-- Implemented region-specific configuration overrides.  
-- Created reusable components to simplify onboarding new countries.  
-- Standardized security and access control across markets.
-
-### 3. API Integration & Data Sync
-- Integrated REST APIs for partner data, vehicle details, and operational workflows.  
-- Developed cron-based sync jobs and queue workers for real-time and batch data processing.  
-- Added advanced error-handling to ensure data consistency and reliability.
-
-### 4. Performance Optimization
-- Optimized slow SQL queries using indexing and caching strategies.  
-- Improved page load speed using:
-  - Render Cache  
-  - Entity Cache  
-  - Twig Caching  
-  - Redis  
-- Reduced overall response time across high-traffic markets.
-
-### 5. CI/CD & DevOps Collaboration
-- Managed deployments through Docker-based CI/CD pipelines.  
-- Maintained Composer-driven builds ensuring consistent environment setup.  
-- Participated in code reviews, backlog grooming, sprint planning, and sprint refinements.
-
----
-
-## 📊 Key Achievements
-- Enabled scalable **multisite rollout** for **10+ European markets**.  
-- Improved API response performance by **~40%**.  
-- Reduced average page load time from **3.2s → 1.1s**.  
-- Reduced onboarding effort for new countries by **~60%** through reusable components.  
-- Strengthened platform stability and improved release quality across environments.
-
----
-
-## 📎 Case Study Link
-https://github.com/shahin-raza/projects/blob/main/Arval/arval-case-study.md
+- Jira  
+- CI/CD Pipelines  
+- Amazon SQS  
+- Datadog  
+- VS Code  
 
 ---
 
 ## 📘 Summary
-This Drupal project highlights my ability to design scalable backend architecture, integrate complex APIs, lead technical implementation, and optimize enterprise-level systems. It demonstrates my expertise in delivering high-quality features within a multi-country, high-performance environment.
+The Apollo platform highlights my expertise in **enterprise Drupal development**, **multisite architectures**, **component-based content systems**, and **API-driven integrations**.  
+I played a critical role in developing scalable backend features, optimizing performance, enabling multi-country rollouts, and ensuring the platform can support **120+ websites** from a unified infrastructure.
+
+This project demonstrates my ability to deliver high-quality, high-performance Drupal solutions for global organizations.
